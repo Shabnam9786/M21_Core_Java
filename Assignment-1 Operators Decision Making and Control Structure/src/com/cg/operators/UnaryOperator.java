@@ -1,11 +1,12 @@
-package com.cg.looping;
+package com.cg.operators;
 
 import java.util.Scanner;
 
 public class UnaryOperator {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
+		// Unary operator
+		
 		Scanner s= new Scanner(System.in);
 		System.out.println("Enter first integer: ");
 		int a= s.nextInt();
@@ -22,6 +23,7 @@ public class UnaryOperator {
 		System.out.println("Result is: " +z);
 		System.out.println("Result is: " +o);
 	    s.close();
+
 	}
 
 }

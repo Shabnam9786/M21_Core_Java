@@ -1,8 +1,9 @@
-package com.cg.looping;
+package com.cg.homeworkassignment;
 
 public class Program3_pattern {
 
 	public static void main(String[] args) {
+		// pattern
 		
 		int i,j;
 		int n=5;
@@ -10,11 +11,10 @@ public class Program3_pattern {
 		{
 			for(j=0;j<=i; j++)
 			{
-				System.out.print("@");
+				System.out.print("@ ");
 			}
 			System.out.println();
 		}
-
 	}
 
 }
