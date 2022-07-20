@@ -2,8 +2,7 @@ package com.cg.pattern;
 
 import java.util.Scanner;
 
-
-public class Swapping2numbers {
+public class Swapping2numbers{
 
 	public static void main(String[] args) {
 		
@@ -20,9 +19,19 @@ public class Swapping2numbers {
 		a=b;
 		b=c;
 		
-		System.out.println("First number after swapping: "+a);
-		System.out.println("First number after swapping: "+b);
+		//by 2 variable
+		//a=a+b;
+	    //b=a-b;
+		//a=a-b;
 		
+		
+		
+				
+		System.out.println("First number after swapping: " +a);
+		System.out.println("Second number after swapping: "+b);
+		
+		s.close();
+		s1.close();
 
 
 	}
