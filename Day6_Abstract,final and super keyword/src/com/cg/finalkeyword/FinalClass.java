@@ -1,5 +1,6 @@
 package com.cg.finalkeyword;
 //we cannot extend final class
+
 //final class Vehicle
 class Vehicle
 {
