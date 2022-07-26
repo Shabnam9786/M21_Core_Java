@@ -16,14 +16,11 @@ class B extends A
 	}
 	
 }
-
-public class SuperInNonAbstractClass {
-
-	public static void main(String[] args) {
-		
+public class SuperInNonAbstractClass 
+{
+	public static void main(String[] args)
+	{		
 	B a=new B();
 	a.display();
-
 	}
-
 }
